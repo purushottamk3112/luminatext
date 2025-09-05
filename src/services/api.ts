@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Replace this URL with your deployed Vercel backend URL
 const API_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://luminatext-backend-itds.vercel.app/' 
+  ? 'https://luminatext-backend-itds-c65f3xc0d-purushottamk3112s-projects.vercel.app' 
   : 'http://localhost:3001';
 
 export interface TranscriptionResult {
